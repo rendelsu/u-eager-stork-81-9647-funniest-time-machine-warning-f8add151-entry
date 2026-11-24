@@ -1,5 +1,6 @@
 // Funniest Time Machine Warning Label — one-line warning label (107 chars, gate 1-120).
 // r1-rev: clarify header comment; entry line unchanged.
+// Gate: /output/entry.txt, 1-120 chars, one line.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
